@@ -1,0 +1,15 @@
+{
+  "name": "teradonburi-marketplace",
+  "owner": {
+    "name": "teradonburi",
+    "url": "https://github.com/teradonburi"
+  },
+  "plugins": [
+    {
+      "name": "claude-review-commands",
+      "source": ".",
+      "description": "Expert code review commands with parallel sub-agents",
+      "version": "1.0.0"
+    }
+  ]
+}
