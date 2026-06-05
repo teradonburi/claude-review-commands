@@ -1,5 +1,7 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "teradonburi-marketplace",
+  "description": "Code review commands for Claude Code",
   "owner": {
     "name": "teradonburi",
     "url": "https://github.com/teradonburi"
@@ -7,7 +9,7 @@
   "plugins": [
     {
       "name": "claude-review-commands",
-      "source": ".",
+      "source": "./",
       "description": "Expert code review commands with parallel sub-agents",
       "version": "1.0.0"
     }
