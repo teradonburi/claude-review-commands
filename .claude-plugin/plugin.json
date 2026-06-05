@@ -1,6 +1,5 @@
 {
   "name": "claude-review-commands",
-  "displayName": "Claude Review Commands",
   "description": "Expert code review commands with parallel sub-agents, PR review point fixer, and SonarQube integration",
   "version": "1.0.0",
   "author": {
