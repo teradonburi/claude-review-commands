@@ -1,5 +1,6 @@
 ---
-description: Fix SonarQube issues detected in the current PR
+name: fix-sonar
+description: "Fix SonarQube issues detected in the current PR"
 ---
 
 # Fix SonarQube Issues

@@ -1,5 +1,6 @@
 ---
-description: Fix unresolved PR review comments
+name: fix-review-point
+description: "Fix unresolved PR review comments"
 ---
 
 # Fix Review Points

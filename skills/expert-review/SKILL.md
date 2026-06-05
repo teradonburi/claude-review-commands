@@ -1,5 +1,6 @@
 ---
-description: Run expert code review with multiple parallel sub-agents
+name: expert-review
+description: "Run expert code review with multiple parallel sub-agents"
 ---
 
 # Expert Code Review
