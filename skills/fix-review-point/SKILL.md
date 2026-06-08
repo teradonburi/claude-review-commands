@@ -11,7 +11,9 @@ Address unresolved review comments on the current PR.
 
 1. Fetch unresolved review comments using the command below
 2. Understand the content of unresolved comments
-3. Make necessary changes to address the feedback
+3. Present a summary of each comment to the user with proposed actions
+4. Wait for user approval before making any changes
+5. Fix the code based on approved actions (do NOT reply with PR comments unless explicitly requested)
 
 ## GitHub CLI Command
 
@@ -111,3 +113,13 @@ The command returns:
 - Requires `gh` CLI to be installed and authenticated
 - Must be run from within a git repository with an associated PR
 - Only shows unresolved threads (resolved threads are filtered out)
+
+## Important
+
+- **Do NOT automatically post PR comments** without explicit user approval
+- **Do NOT make code changes** without presenting the plan to the user first
+- For each review comment, present:
+  1. The comment content and location
+  2. Your proposed fix or response
+  3. Ask user to approve before proceeding
+- If the comment is a [nit] or question, ask user if they want to fix it or skip
